@@ -130,7 +130,7 @@ int main ( )
 					{
 						if ( sanitized_string.back ( ) != 0x2f )
 						{
-							out_file << sanitized_string + "\n";
+							out_file << ymir_work_path_name + sanitized_string + "\n";
 							continue;
 						}
 
